@@ -1,4 +1,4 @@
-Live at: https://wiki.mihaighe.vercel.app/
+Live at: https://widgets.mihaighe.vercel.app/
 
 ![Alt text](/content/Screen1.png?raw=true "Screen1")
 ![Alt text](/content/Screen2.png?raw=true "Screen2")
