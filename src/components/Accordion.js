@@ -23,11 +23,7 @@ const Accordion = ({ items }) => {
     );
   });
 
-  return (
-    <div className="ui styled accordion">
-      {renderedItems}
-    </div>
-  );
+  return <div className="ui styled accordion" style={{width: 1127}}>{renderedItems}</div>;
 };
 
 export default Accordion;

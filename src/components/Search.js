@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import logo from "../images/wiki.png";
 
 const Search = () => {
   const [term, setTerm] = useState("Programming Language");
@@ -56,9 +57,9 @@ const Search = () => {
 
   return (
     <div>
+      <img alt="logo" src={logo} style={{ width: "230px" }}></img>
       <div className="ui form">
         <div className="field">
-          <label>Enter Search Term</label>
           <input
             value={term}
             onChange={(e) => setTerm(e.target.value)}
