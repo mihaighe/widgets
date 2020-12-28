@@ -41,37 +41,6 @@ const items = [
     content:
       "All of Netflix's webpages are served by server-side rendered React, serving the generated HTML and then serving the client-side application",
   },
-  {
-    title: "What is React?",
-    content: "React is a front end javascript framework",
-  },
-  {
-    title: "Why use React?",
-    content: "React is a favorite JS library among engineers",
-  },
-  {
-    title: "What is one feature of React",
-    content: "You use React by creating components",
-  },
-  {
-    title: "What is React used for",
-    content:
-      "React is a JavaScript library that specializes in helping developers build user interfaces, or UIs",
-  },
-  {
-    title: "Is Facebook written in React?",
-    content:
-      "It is maintained by Facebook and a community of individual developers and companies",
-  },
-  {
-    title: "Where do I start with React?",
-    content: "Read the official documentation by React",
-  },
-  {
-    title: "Is Netflix build with React?",
-    content:
-      "All of Netflix's webpages are served by server-side rendered React, serving the generated HTML and then serving the client-side application",
-  },
 ];
 
 const options = [
@@ -105,7 +74,7 @@ const options = [
   },
 ];
 
-export default () => {
+const App = () => {
   const [selected, setSelected] = useState(options[0]);
   return (
     <div
@@ -136,3 +105,5 @@ export default () => {
     </div>
   );
 };
+
+export default App;
